@@ -1,0 +1,29 @@
+# Linux 备忘录
+
+## 基本配置
+
+```
+/etc/network/interface 网络接口配置
+dhcp动态 static静态
+address ip地址
+netmask 255.255.255.0(子网掩码)
+gateway 192.168.1.1(网关)
+
+/etc/init.d/networking restart 重启网络服务
+
+systemctl start postgresql 打开数据库
+systemctl enable postgresql 开机启动
+```
+
+配置中科大源
+
+```
+deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+```
+
+## 基本指令
+
+```
+chmod +(-=)wxr 添加权限
+```

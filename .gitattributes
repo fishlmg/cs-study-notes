@@ -1,0 +1,7 @@
+# test.php 只是一段练习，不代表本仓库。
+# 标为 linguist-vendored 后，GitHub 不再把仓库语言显示成 PHP。
+# 笔记改为 Markdown 后，语言统计会落在 Markdown。
+*.php linguist-vendored
+
+# 若仍有纯文本笔记，按文档处理，不参与语言统计。
+*.txt linguist-documentation
